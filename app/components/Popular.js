@@ -8,7 +8,9 @@ export default class Popular extends React.Component {
         <ul className='flex-center'>
             {languages.map((langauge) =>(
             <li key = {langauge}>
-                <button className=""></button>
+                <button className="btn-clear nav-link">
+                    {langauge}
+                </button>
             </li>
             )) }     
         </ul>

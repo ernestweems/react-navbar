@@ -4,7 +4,7 @@
   "description": "React starter kit to get you up and running quick",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack-dev-server"
+    "dev": "webpack-dev-server"
   },
   "babel": {
     "presets": [
